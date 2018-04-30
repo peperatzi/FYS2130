@@ -88,25 +88,52 @@ class Solver():
         return x, v, t, m
 
 
+    def solve_2(self):
+        x = self.x; v = self.v; t = self.t; N = self.N; dt = self.dt; m = self.m; dm = self.dm
+        for i in range(N-1):
+            [x[i+1], v[i+1]] = self.rk4_step(x[i], v[i], t[i], m[i])
+            t[i+1] = t[i] + dt
+            m[i+1] = m[i] + dm
+            if( True ):
+                m[i+1] = m[i] - dm
 
-class Plotter():
-    def __init__(self):
-        a = 0 
+        return x, v, t, m
 
-    def set_parameters(self, x_values, y_values, title, xlabel, ylabel, color):
-        self.x_values = x_values
-        self.y_values = y_values
-        self.title = title
-        self.xlabel = xlabel
-        self.ylabel = ylabel
-        self.color = color
 
-    def show(self):
-        plt.title(self.title)
-        plt.xlabel(self.xlabel)
-        plt.ylabel(self.ylabel)
-        plt.plot(self.x_values, self.y_values, self.color)
-        plt.show()
+def show_plots(k, m, ps, steps, lw):
+    """
+    Just a wrapper functions for plotting the PHASE SPACE, ENERGIES and POSITION/VELOCITIES.
+    """
+    # Plot phase space
+    plt.plot(v, x, 'r', linewidth=2)
+    plt.plot([-ps,ps],[0,0],'--k')
+    plt.plot([0,0],[-ps,ps],'--k')
+    plt.title('Phase space')
+    plt.xlabel('Velocity m/s')
+    plt.ylabel('Position')
+    plt.show()
+
+    # 
+    #k = 1 # [N/m]
+    Ek = 0.5*m*(v**2)
+    Ep = 0.5*k*(x**2)
+
+    # 
+    plt.subplot(2,1,1)
+    plt.plot(t, Ek, 'r', linewidth=lw)
+    plt.plot(t, Ep, 'b', linewidth=lw)
+    plt.plot(t, Ek+Ep, '--g', linewidth=1)
+    plt.plot([0,steps], [0,0], '--k')
+    plt.legend(['Kinetic energy', 'Potential energy'])
+
+    # 
+    plt.subplot(2,1,2)
+    plt.plot(t, x, 'g', linewidth=lw)
+    plt.plot(t, v, 'y', linewidth=lw)
+    plt.plot([0,steps], [0,0], '--k')
+    plt.legend(['Position', 'Velocity'])
+
+    plt.show()
 
 
 # 
@@ -172,7 +199,7 @@ def diff_eq_5(x, v, t, m):
 # 
 def diff_eq_6(x, v, t, m):
     """
-    Differential equation for problem 5
+    Differential equation for problem 6
     """
     k = 0.475       # []
     b = 0.001       # []
@@ -180,50 +207,56 @@ def diff_eq_6(x, v, t, m):
 
     a = -(b*v + k*x + g)/m
 
-    print m
-
     return a
 
 
 solver = Solver(20.0, 1e-2)
-plotter = Plotter()
 
-problem_to_show = 6
-if( problem_to_show == 1 ):
+problem_to_solve = 6
+if( problem_to_solve == 1 ):
+    # Initialize and solve the equation introduced in problem 1
     solver.set_diff_eq(diff_eq_1)
     solver.set_initial_conditions(1.0, 0.0, 0.5)
     [x, v, t, m] = solver.solve();
-    plotter.set_parameters(x, v, 'Testplot', 'x', 'y', 'r')
-    plotter.show()
-elif( problem_to_show == 2 ):
+
+    show_plots(1.0, m[0], 1.5, 20.0, 2)
+
+elif( problem_to_solve == 2 ):
+    # 
     solver.set_diff_eq(diff_eq_2)
     solver.set_initial_conditions(1.0, 0.0, 0.5)
-    [x, v, t, m] = solver.solve();
-    plotter.set_parameters(x, v, 'Testplot', 'x', 'y', 'r')
-    plotter.show()
-elif( problem_to_show == 4):
+    [x, v, t, m] = solver.solve()
+
+    show_plots(1.0, m[0], 1.5, 20.0, 2)
+
+elif( problem_to_solve == 4):
+    # 
     solver.set_diff_eq(diff_eq_4)
     solver.set_time(200.0)
     solver.set_initial_conditions(2.0, 0.0, 0.5)
-    [x, v, t, m] = solver.solve();
-    plotter.set_parameters(x, v, 'Testplot', 'x', 'y', 'r')
-    plotter.show()
-elif( problem_to_show == 5):
+    [x, v, t, m] = solver.solve()
+
+    show_plots(1.0, m[0], 3.0, 200.0, 1)
+
+elif( problem_to_solve == 5):
+    # 
     solver.set_diff_eq(diff_eq_5)
     solver.set_time(100.0)
     solver.set_initial_conditions(2.0, 0.0, 0.5)
     [x, v, t, m] = solver.solve();
-    plotter.set_parameters(x, v, 'Testplot', 'x', 'y', 'r')
-    plotter.show()
-elif( problem_to_show == 6):
+
+    show_plots(1.0, m[0], 3.0, 100.0, 1)
+ 
+elif( problem_to_solve == 6):
     solver.set_diff_eq(diff_eq_6)
     solver.set_time(3.0)
     solver.set_dt(1e-4)
     solver.set_dm(0.00055)
     solver.set_initial_conditions(0.001, 0.001, 0.00001)
     [x, v, t, m] = solver.solve();
-    plotter.set_parameters(x, v, 'Testplot', 'x', 'y', 'r')
-    plotter.show()
+
+    show_plots(1.0, m[0], 3.0, 100.0, 1)
+
 else:
     print "Please input a valid problem numer: [1,2,4]"
 
