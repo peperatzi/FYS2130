@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.19)  30 APR 2018 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.19)  6 MAY 2018 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -971,34 +971,83 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
 
-(./project_15266.aux)
+(./project_15266.aux
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `figure_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `figure_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `figure_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `figure_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `figure_1' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:problem_b_contour_fig' multiply defined.
+
+)
 \openout1 = `project_15266.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Info: Redefining \celsius on input line 60.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Info: Redefining \celsius on input line 61.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 61.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 60.
-Package gensymb Info: Using \Omega for \ohm on input line 60.
+LaTeX Info: Redefining \ohm on input line 61.
+Package gensymb Info: Using \Omega for \ohm on input line 61.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1037,7 +1086,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring ON on input line 60.
+Package hyperref Info: Link coloring ON on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1047,83 +1096,174 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./project_15266.out) (./project_15266.out)
 \@outlinefile=\write4
 \openout4 = `project_15266.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-! LaTeX Error: File `problem_1_1' not found.
+Package caption Warning: \label without proper reference on input line 189.
+See the caption package documentation for explanation.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...graphics[width=0.6\textwidth]{problem_1_1}
-                                                  
-? 
+
+LaTeX Warning: Reference `figure_1' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Reference `figure_2' on page 1 undefined on input line 76.
+
+<problem_1_1.png, id=8, 578.16pt x 433.62pt>
+File: problem_1_1.png Graphic file (type png)
+ <use problem_1_1.png>
+Package pdftex.def Info: problem_1_1.png used on input line 83.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+<problem_1_2.png, id=10, 578.16pt x 433.62pt>
+File: problem_1_2.png Graphic file (type png)
+ <use problem_1_2.png>
+Package pdftex.def Info: problem_1_2.png used on input line 89.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<problem_2_1.png, id=31, 578.16pt x 433.62pt>
+File: problem_2_1.png Graphic file (type png)
+ <use problem_2_1.png>
+Package pdftex.def Info: problem_2_1.png used on input line 101.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+<problem_2_2.png, id=32, 578.16pt x 433.62pt>
+File: problem_2_2.png Graphic file (type png)
+ <use problem_2_2.png>
+Package pdftex.def Info: problem_2_2.png used on input line 107.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ [2 <./problem_1_1.png> <./problem_1_2.png>] [3 <./problem_2_1.png> <./problem_
+2_2.png>]
+<problem_3_1.png, id=54, 578.16pt x 433.62pt>
+File: problem_3_1.png Graphic file (type png)
+ <use problem_3_1.png>
+Package pdftex.def Info: problem_3_1.png used on input line 138.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+<problem_3_2.png, id=55, 578.16pt x 433.62pt>
+File: problem_3_2.png Graphic file (type png)
+ <use problem_3_2.png>
+Package pdftex.def Info: problem_3_2.png used on input line 144.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ [4 <./problem_3_1.png>] <problem_4_1_1.png, id=67, 578.16pt x 433.62pt>
+File: problem_4_1_1.png Graphic file (type png)
+
+<use problem_4_1_1.png>
+Package pdftex.def Info: problem_4_1_1.png used on input line 154.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ <problem_4_1_2.png, id=68, 578.16pt x 433.62pt>
+File: problem_4_1_2.png Graphic file (type png)
+
+<use problem_4_1_2.png>
+Package pdftex.def Info: problem_4_1_2.png used on input line 160.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ <problem_4_2_1.png, id=69, 578.16pt x 433.62pt>
+File: problem_4_2_1.png Graphic file (type png)
+
+<use problem_4_2_1.png>
+Package pdftex.def Info: problem_4_2_1.png used on input line 166.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ [5 <./problem_3_2.png> <./problem_4_1_1.png>]
+<problem_4_2_2.png, id=79, 578.16pt x 433.62pt>
+File: problem_4_2_2.png Graphic file (type png)
+ <use problem_4_2_2.png>
+Package pdftex.def Info: problem_4_2_2.png used on input line 172.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+[6 <./problem_4_1_2.png> <./problem_4_2_1.png>]
+<problem_5_1.png, id=88, 578.16pt x 433.62pt>
+File: problem_5_1.png Graphic file (type png)
+ <use problem_5_1.png>
+Package pdftex.def Info: problem_5_1.png used on input line 182.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+
+<problem_5_2.png, id=89, 578.16pt x 433.62pt>
+File: problem_5_2.png Graphic file (type png)
+ <use problem_5_2.png>
+Package pdftex.def Info: problem_5_2.png used on input line 188.
+(pdftex.def)             Requested size: 258.75pt x 194.06194pt.
+ [7 <./problem_4_2_2.png> <./problem_5_1.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./code.py [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
+) (./code.py
+[8 <./problem_5_2.png>] [9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
- [3] [4] [5]) [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+ [10] [11] [12]
+[13] [14]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 353.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 353.
+) [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
 
 (./project_15266.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `project_15266.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
- 20461 strings out of 494374
- 369031 string characters out of 6164953
- 623787 words of memory out of 5000000
- 23174 multiletter control sequences out of 15000+600000
- 11195 words of font info for 44 fonts, out of 8000000 for 9000
+ 20706 strings out of 494374
+ 372992 string characters out of 6164953
+ 666879 words of memory out of 5000000
+ 23256 multiletter control sequences out of 15000+600000
+ 11849 words of font info for 46 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 55i,7n,54p,415b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on project_15266.pdf (6 pages, 127099 bytes).
+ 55i,7n,54p,455b,2012s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on project_15266.pdf (15 pages, 1684079 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 253 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 412 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
